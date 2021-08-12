@@ -1,0 +1,703 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+  }
+  @mixin transition-props($props) {
+    transition: $props 0.6s ease-in-out;
+  }
+  
+  @mixin btn-transition-props($props) {
+    transition: $props 0.25s ease-in-out;
+  }
+  
+  $cskColor: linear-gradient(90deg, #ffcf18, #ffb300);
+  $miColor: linear-gradient(90deg, #2196f3, #1976d2);
+  $rcbColor: linear-gradient(90deg, #d32f2f, #b71c1c);
+  $kkrColor: linear-gradient(90deg, #673ab7, #8739fa);
+  $delhiColor: linear-gradient(90deg, #3d5afe, #2979ff);
+  $pbksColor: linear-gradient(90deg, #ef5350, #e57373);
+  $rrColor: linear-gradient(90deg, #f06292, #ec407a);
+  $srhColor: linear-gradient(90deg, #ff5722, #f4511e);
+  $ktkColor: linear-gradient(90deg, #ab47bc, #9c27b0);
+  $glColor: linear-gradient(90deg, #f57c00, #ef6c00);
+  $rpsColor: linear-gradient(270deg, #d81b60, #8e24aa);
+  $deccanColor: linear-gradient(90deg, #607d8b, #546e7a);
+  $pwiColor: linear-gradient(90deg, #00bcd4, #00acc1);
+  
+  $darkBackgroundColor: #121212;
+  $darkCardBackground: #202020;
+  $darkCardBoxShadow: 0 0 5px 2px #111;
+  $darkBoxShadow: 0 0 5px 1px #111;
+  
+  $lightBackgroundColor: #eee;
+  $lightCardBackground: #ededed;
+  $lightCardBoxShadow: 0 0 10px 2px #e1e1e1;
+  $lightBoxShadow: 0 0 5px 1px #e0e0e0;
+  
+  @media (prefers-color-scheme: dark) {
+    body,
+    body.dark-theme {
+      background-color: #121212;
+      @include transition-props(background-color);
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 10vh;
+        //   border-bottom: 3px solid #eee;
+        //   background-color: #f06292;
+  
+        .logo {
+          color: #eee;
+          padding-left: 2.5vw;
+          // text-transform: uppercase;
+          // letter-spacing: 5px;
+          font-size: 20px;
+          @include transition-props(color);
+        }
+  
+        .nav-links {
+          display: flex;
+          justify-content: space-around;
+          width: 30%;
+          // padding-right: 2vw;
+  
+          li {
+            list-style: none;
+            cursor: pointer;
+  
+            a {
+              color: #eee;
+              text-decoration: none;
+              letter-spacing: 3px;
+              font-weight: 600;
+              font-size: 20px;
+              @include transition-props(color);
+              @include transition-props(border-bottom-color);
+            }
+  
+            a.active,
+            a:hover {
+              border-bottom: 2px solid #fff;
+              // @include transition-props(border-bottom-color);
+            }
+  
+            .dark-mode-toggle {
+              cursor: pointer;
+              background: none;
+              border: none;
+  
+              #moon {
+                display: none;
+                @include transition-props(display);
+              }
+              #sun {
+                display: block;
+                color: #eee;
+                @include transition-props(display);
+              }
+            }
+          }
+        }
+  
+        .burger {
+          display: none;
+          padding-right: 3.5vw;
+        }
+      }
+      .dashboard {
+        .button-container {
+          //remove it once aligned with the grid system
+          padding: 2.5vh 2.5vw;
+          box-sizing: border-box;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-around;
+          overflow-x: auto;
+          // border-color: rgba(0, 0, 0, 1);
+  
+          button {
+            min-width: 6vw;
+            height: 6vh;
+            background: none;
+            font-weight: 600;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 16px;
+            color: #eee;
+            cursor: pointer;
+            border-radius: 50px;
+            border-style: solid;
+            border-width: 3px;
+            background: $darkCardBackground;
+            box-shadow: $darkBoxShadow;
+            @include btn-transition-props(transform);
+            @include transition-props(background-color);
+            @include transition-props(box-shadow);
+  
+            span {
+              display: none;
+            }
+          }
+  
+          button:hover,
+          button.active {
+            transform: scale(1.1);
+            @include btn-transition-props(transform);
+            border: none;
+          }
+  
+          #csk-btn {
+            border-color: #ffcf18;
+          }
+  
+          #csk-btn:hover,
+          #csk-btn.active {
+            background: $cskColor;
+          }
+  
+          #mi-btn {
+            border-color: #2196f3;
+          }
+  
+          #mi-btn:hover,
+          #mi-btn.active {
+            background: $miColor;
+          }
+          #rcb-btn {
+            border-color: #b71c1c;
+          }
+  
+          #rcb-btn:hover,
+          #rcb-btn.active {
+            background: $rcbColor;
+          }
+          #kkr-btn {
+            border-color: #8739fa;
+          }
+  
+          #kkr-btn:hover,
+          #kkr-btn.active {
+            background: $kkrColor;
+          }
+  
+          #delhi-btn {
+            border-color: #3d5afe;
+          }
+  
+          #delhi-btn:hover,
+          #delhi-btn.active {
+            background: $delhiColor;
+          }
+          #pbks-btn {
+            border-color: #ef5350;
+          }
+  
+          #pbks-btn:hover,
+          #pbks-btn.active {
+            background: $pbksColor;
+          }
+          #rr-btn {
+            border-color: #f06292;
+          }
+  
+          #rr-btn:hover,
+          #rr-btn.active {
+            background: $rrColor;
+          }
+  
+          #srh-btn {
+            border-color: #ff5722;
+          }
+  
+          #srh-btn:hover,
+          #srh-btn.active {
+            background: $srhColor;
+          }
+          #ktk-btn {
+            border-color: #ab47bc;
+          }
+  
+          #ktk-btn:hover,
+          #ktk-btn.active {
+            background: $ktkColor;
+          }
+          #gl-btn {
+            border-color: #f57c00;
+          }
+  
+          #gl-btn:hover,
+          #gl-btn.active {
+            background: $glColor;
+          }
+  
+          #rps-btn {
+            border-color: #d81b60;
+          }
+  
+          #rps-btn:hover,
+          #rps-btn.active {
+            background: $rpsColor;
+          }
+          #deccan-btn {
+            border-color: #607d8b;
+          }
+  
+          #deccan-btn:hover,
+          #deccan-btn.active {
+            background: $deccanColor;
+          }
+          #pwi-btn {
+            border-color: #00bcd4;
+          }
+  
+          #pwi-btn:hover,
+          #pwi-btn.active {
+            background: $pwiColor;
+          }
+        }
+        .card-container {
+          display: grid;
+          grid-template-columns: repeat(6, 1fr);
+          align-items: center;
+          min-height: 15vh;
+          width: 100vw;
+          gap: 12.5px;
+          padding: 0 2.5vw;
+          overflow: auto;
+          .cards {
+            user-select: none;
+            color: #eee;
+            text-align: center;
+            border-radius: 10px;
+            border: none;
+            box-shadow: $darkCardBoxShadow;
+            background-color: $darkCardBackground;
+            @include transition-props(background-color);
+            @include transition-props(color);
+            padding: 10px 0;
+  
+            span {
+              font-weight: 700;
+              font-size: 36px;
+              color: #eee;
+  
+              transition: all 0.3s ease-in-out;
+              @include transition-props(color);
+            }
+            div {
+              padding-top: 7.5px;
+              font-weight: 600;
+              font-size: 18px;
+              text-align: center;
+            }
+          }
+        }
+      }
+  
+      .dashboard.csk {
+        .card-container {
+          .cards {
+            color: #Ffbf00;
+            span {
+              color: #Ffbf00;
+            }
+          }
+        }
+      }
+      .dashboard.mi {
+        .card-container {
+          .cards {
+            color: #2196f3;
+            span {
+              color: #2196f3;
+            }
+          }
+        }
+      }
+  
+      .dashboard.rcb {
+        .card-container {
+          .cards {
+            color: #b71c1c;
+            span {
+              color: #b71c1c;
+            }
+          }
+        }
+      }
+  
+      .dashboard.kkr {
+        .card-container {
+          .cards {
+            color: #8739fa;
+            span {
+              color: #8739fa;
+            }
+          }
+        }
+      }
+  
+      .dashboard.delhi {
+        .card-container {
+          .cards {
+            color: #2979ff;
+            span {
+              color: #2979ff;
+            }
+          }
+        }
+      }
+  
+      .dashboard.pbks {
+        .card-container {
+          .cards {
+            color: #ef5350;
+            span {
+              color: #ef5350;
+            }
+          }
+        }
+      }
+  
+      .dashboard.rr {
+        .card-container {
+          .cards {
+            color: #f06292;
+            span {
+              color: #f06292;
+            }
+          }
+        }
+      }
+  
+      .dashboard.srh {
+        .card-container {
+          .cards {
+            color: #ff5722;
+            span {
+              color: #ff5722;
+            }
+          }
+        }
+      }
+  
+      .dashboard.ktk {
+        .card-container {
+          .cards {
+            color: #ab47bc;
+            span {
+              color: #ab47bc;
+            }
+          }
+        }
+      }
+  
+      .dashboard.gl {
+        .card-container {
+          .cards {
+            color: #f57c00;
+            span {
+              color: #f57c00;
+            }
+          }
+        }
+      }
+  
+      .dashboard.rps {
+        .card-container {
+          .cards {
+            color: #d81b60;
+            span {
+              color: #d81b60;
+            }
+          }
+        }
+      }
+  
+      .dashboard.deccan {
+        .card-container {
+          .cards {
+            color: #607d8b;
+            span {
+              color: #607d8b;
+            }
+          }
+        }
+      }
+  
+      .dashboard.pwi {
+        .card-container {
+          .cards {
+            color: #00bcd4;
+            span {
+              color: #00bcd4;
+            }
+          }
+        }
+      }
+    }
+    body.light-theme {
+      background-color: #eee;
+      @include transition-props(background-color);
+  
+      nav {
+        //   border-bottom: 3px solid #111;
+        .logo {
+          color: #111;
+  
+          @include transition-props(color);
+        }
+        .nav-links li {
+          a {
+            color: #111;
+            @include transition-props(color);
+            @include transition-props(border-bottom-color);
+          }
+  
+          a.active,
+          a:hover {
+            border-bottom-color: #111;
+            //   @include transition-props(border-bottom-color);
+          }
+          .dark-mode-toggle #moon {
+            display: block;
+            color: #111;
+            @include transition-props(display);
+          }
+          .dark-mode-toggle #sun {
+            display: none;
+            @include transition-props(display);
+          }
+        }
+      }
+      .dashboard {
+        .button-container {
+          button {
+            background: #eee;
+            color: #111;
+            box-shadow: $lightBoxShadow;
+          }
+        }
+        .card-container {
+          .cards {
+            box-shadow: $lightBoxShadow;
+            background-color: $lightCardBackground;
+            @include transition-props(background-color);
+            @include transition-props(color);
+          }
+        }
+      }
+  
+      .dashboard.csk {
+        .card-container {
+          .cards {
+            color: #ffcf18;
+            span {
+              color: #ffcf18;
+            }
+          }
+        }
+      }
+      .dashboard.mi {
+        .card-container {
+          .cards {
+            color: #2196f3;
+            span {
+              color: #2196f3;
+            }
+          }
+        }
+      }
+  
+      .dashboard.rcb {
+        .card-container {
+          .cards {
+            color: #b71c1c;
+            span {
+              color: #b71c1c;
+            }
+          }
+        }
+      }
+  
+      .dashboard.kkr {
+        .card-container {
+          .cards {
+            color: #8739fa;
+            span {
+              color: #8739fa;
+            }
+          }
+        }
+      }
+  
+      .dashboard.delhi {
+        .card-container {
+          .cards {
+            color: #2979ff;
+            span {
+              color: #2979ff;
+            }
+          }
+        }
+      }
+  
+      .dashboard.pbks {
+        .card-container {
+          .cards {
+            color: #ef5350;
+            span {
+              color: #ef5350;
+            }
+          }
+        }
+      }
+  
+      .dashboard.rr {
+        .card-container {
+          .cards {
+            color: #f06292;
+            span {
+              color: #f06292;
+            }
+          }
+        }
+      }
+  
+      .dashboard.srh {
+        .card-container {
+          .cards {
+            color: #ff5722;
+            span {
+              color: #ff5722;
+            }
+          }
+        }
+      }
+  
+      .dashboard.ktk {
+        .card-container {
+          .cards {
+            color: #ab47bc;
+            span {
+              color: #ab47bc;
+            }
+          }
+        }
+      }
+  
+      .dashboard.gl {
+        .card-container {
+          .cards {
+            color: #f57c00;
+            span {
+              color: #f57c00;
+            }
+          }
+        }
+      }
+  
+      .dashboard.rps {
+        .card-container {
+          .cards {
+            color: #d81b60;
+            span {
+              color: #d81b60;
+            }
+          }
+        }
+      }
+  
+      .dashboard.deccan {
+        .card-container {
+          .cards {
+            color: #607d8b;
+            span {
+              color: #607d8b;
+            }
+          }
+        }
+      }
+  
+      .dashboard.pwi {
+        .card-container {
+          .cards {
+            color: #00bcd4;
+            span {
+              color: #00bcd4;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  nav .nav-links.nav-active {
+    transform: translateX(0%);
+  }
+  
+  @keyframes navLinksFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    body {
+      overflow-x: hidden;
+      nav {
+        .nav-links {
+          position: absolute;
+          right: 0px;
+          height: 92vh;
+          top: 8vh;
+          background-color: #f06292;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 60% !important;
+          transform: translateX(100%);
+          transition: transform 0.5s ease-in-out;
+  
+          li {
+            opacity: 0;
+          }
+        }
+        div.burger {
+          display: block !important;
+  
+          span {
+            color: #eee;
+            display: block;
+            font-size: 36px;
+            cursor: pointer;
+          }
+        }
+      }
+      .dashboard {
+        .button-container {
+          justify-content: start !important;
+          button {
+            min-width: 60px !important;
+          }
+        }
+      }
+    }
+    @media (prefers-color-scheme: dark) {
+      body.dark-theme nav .burger span {
+        color: #eee;
+      }
+      body.light-theme nav .burger span {
+        color: #111;
+      }
+    }
+  }  

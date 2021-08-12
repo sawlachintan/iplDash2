@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL Dashboard</title>
+    <meta name="description" content="A dashboard to visualize performance of the teams in the Indian Premier League">
+    <!-- Google Fonts links -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- D3 links -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>IPL Dashboard</h1>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="#" class="active">Home</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <button class="dark-mode-toggle">
+                    <span id="moon" class="material-icons">
+                        dark_mode
+                    </span>
+                    <span id="sun" class="material-icons">
+                        light_mode
+                    </span>
+                </button>
+            </li>
+        </ul>
+        <div class="burger">
+            <span class="material-icons">
+                menu
+            </span>
+        </div>
+    </nav>
+
+    <div class="dashboard">
+        <div class="button-container">
+            <button class="team-btn" id="csk-btn">
+                CSK<span class="team-hover">Chennai Super Kings</span>
+            </button>
+            <button class="team-btn" id="mi-btn">
+                MI<span class="team-hover">Mumbai Indians</span>
+            </button>
+            <button class="team-btn" id="rcb-btn">
+                RCB<span class="team-hover">Royal Challengers Bangalore</span>
+            </button>
+            <button class="team-btn" id="kkr-btn">
+                KKR<span class="team-hover">Kolkata Knight Riders</span>
+            </button>
+            <button class="team-btn" id="delhi-btn">
+                DC<span class="team-hover">Delhi Capitals</span>
+            </button>
+            <button class="team-btn" id="pbks-btn">
+                PBKS<span class="team-hover">Punjab Kings</span>
+            </button>
+            <button class="team-btn" id="rr-btn">
+                RR<span class="team-hover">Rajasthan Royals</span>
+            </button>
+            <button class="team-btn" id="srh-btn">
+                SRH<span class="team-hover">Sunrisers Hyderabad</span>
+            </button>
+            <button class="team-btn" id="ktk-btn">
+                KTK<span class="team-hover">Kochi Tuskers Kerala</span>
+            </button>
+            <button class="team-btn" id="gl-btn">
+                GL<span class="team-hover">Gujarat Lions</span>
+            </button>
+            <button class="team-btn" id="rps-btn">
+                RPS<span class="team-hover">Rising Pune Supergiants</span>
+            </button>
+            <button class="team-btn" id="deccan-btn">
+                DC<span class="team-hover">Deccan Chargers</span>
+            </button>
+            <button class="team-btn" id="pwi-btn">
+                PWI<span class="team-hover">Pune Warriors India</span>
+            </button>
+        </div>
+        <div class="card-container">
+            <div class="cards">
+                <span id="runs">0</span><br>
+                <div>runs</div>
+            </div>
+            <div class="cards">
+                <span id="wickets">0</span><br>
+                <div>wickets</div>
+            </div>
+            <div class="cards">
+                <span id="sixes">0</span><br>
+                <div>6s</div>
+            </div>
+            <div class="cards">
+                <span id="fours">0</span><br>
+                <div>4s</div>
+            </div>
+            <div class="cards">
+                <span id="wins">0</span><br>
+                <div>wins</div>
+            </div>
+            <div class="cards">
+                <span id="toss-wins">0</span><br>
+                <div>toss wins</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
