@@ -1,7 +1,4 @@
 import pandas as pd
-import numpy as np
-from geopy.extra.rate_limiter import RateLimiter
-from geopy.geocoders import Nominatim
 
 innings_df = pd.read_csv('https://sawlachintan.github.io/cricket_data/ipl_data/innings_df.csv')
 info_df = pd.read_csv('https://sawlachintan.github.io/cricket_data/ipl_data/info_df.csv')[['key_id','date','city','venue']]
