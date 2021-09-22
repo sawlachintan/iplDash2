@@ -1,0 +1,37 @@
+name: Update data for the Dashboard
+
+on:
+  schedule:
+    - cron: '0 1.5/12 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo Content
+        uses: actions/checkout@v2
+        
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.7.7'
+      
+      - name: Installing Packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas
+        
+      - name: Executing main_data.py
+        run: python3 ./py_files/main_data.py
+        
+      - name: Commit Files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "update data" -a
+      - name: Push Changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
