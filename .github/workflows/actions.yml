@@ -2,7 +2,7 @@ name: Update data for the Dashboard
 
 on:
   schedule:
-    - cron: '10 1/12 * * *'
+    - cron: '30 1/12 * * *'
 
 jobs:
   build:
