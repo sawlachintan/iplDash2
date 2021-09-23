@@ -10,7 +10,7 @@ info_df['date'] = pd.to_datetime(info_df['date']).dt.strftime("%Y")
 innings_df = innings_df.merge(info_df, on='key_id')
 innings_df = innings_df.rename(columns={'date': 'year'})
 
-print('Fetched Data')
+print(f'Fetched Data: { len(set(innings_df.key_id)) } matches')
 
 team_df = pd.read_csv(
     'https://sawlachintan.github.io/cricket_data/ipl_data/team_df.csv')
