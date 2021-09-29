@@ -238,6 +238,7 @@ Delhi Capitals,2021,Ahmedabad,3,493,46,17,0,0,17,2,3,delhi
 Delhi Capitals,2021,Chennai,2,305,32,4,0,0,16,1,1,delhi
 Delhi Capitals,2021,Dubai,1,139,13,5,0,0,9,1,0,delhi
 Delhi Capitals,2021,Mumbai,3,535,65,11,0,0,18,2,2,delhi
+Delhi Capitals,2021,Sharjah,1,127,14,0,0,0,7,0,0,delhi
 Gujarat Lions,2016,Bangalore,2,262,21,10,0,0,9,0,1,gl
 Gujarat Lions,2016,Chandigarh,1,162,22,2,0,0,6,1,1,gl
 Gujarat Lions,2016,Delhi,2,334,36,10,0,0,11,1,0,gl
@@ -367,6 +368,7 @@ Kolkata Knight Riders,2021,Abu Dhabi,3,424,44,14,0,1,24,2,2,kkr
 Kolkata Knight Riders,2021,Ahmedabad,2,280,27,9,0,0,12,1,1,kkr
 Kolkata Knight Riders,2021,Chennai,3,495,46,20,0,1,19,1,1,kkr
 Kolkata Knight Riders,2021,Mumbai,2,335,25,19,1,0,7,0,1,kkr
+Kolkata Knight Riders,2021,Sharjah,1,130,8,7,0,0,9,1,1,kkr
 Mumbai Indians,2008,Bangalore,1,126,10,6,0,0,9,1,1,mi
 Mumbai Indians,2008,Chandigarh,1,116,12,4,0,1,10,0,1,mi
 Mumbai Indians,2008,Chennai,1,202,19,8,1,0,5,0,1,mi
@@ -466,7 +468,7 @@ Mumbai Indians,2019,Mumbai,7,1208,109,55,0,0,46,4,5,mi
 Mumbai Indians,2020,Abu Dhabi,8,1417,125,61,0,1,49,6,3,mi
 Mumbai Indians,2020,Dubai,5,868,63,47,2,0,35,3,3,mi
 Mumbai Indians,2020,Sharjah,3,473,36,29,1,0,16,2,2,mi
-Mumbai Indians,2021,Abu Dhabi,1,155,11,6,0,0,3,0,0,mi
+Mumbai Indians,2021,Abu Dhabi,2,292,22,11,0,0,9,1,1,mi
 Mumbai Indians,2021,Chennai,5,729,59,23,0,1,30,2,2,mi
 Mumbai Indians,2021,Delhi,2,391,29,20,1,0,8,2,2,mi
 Mumbai Indians,2021,Dubai,2,247,23,4,0,0,13,0,1,mi
@@ -602,6 +604,7 @@ Punjab Kings,2019,Mumbai,1,197,13,13,0,0,7,0,0,pbks
 Punjab Kings,2020,Abu Dhabi,4,643,48,23,0,0,14,0,1,pbks
 Punjab Kings,2020,Dubai,7,1164,93,44,1,2,47,3,2,pbks
 Punjab Kings,2020,Sharjah,3,550,40,32,1,0,21,2,1,pbks
+Punjab Kings,2021,Abu Dhabi,1,135,11,1,0,0,4,0,0,pbks
 Punjab Kings,2021,Ahmedabad,3,468,31,24,0,0,16,1,0,pbks
 Punjab Kings,2021,Chennai,2,252,19,8,0,0,7,1,2,pbks
 Punjab Kings,2021,Dubai,1,183,14,7,0,1,10,0,1,pbks
