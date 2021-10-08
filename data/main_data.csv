@@ -88,7 +88,7 @@ Chennai Super Kings,2020,Dubai,7,1096,99,34,0,0,35,4,3,csk
 Chennai Super Kings,2020,Sharjah,3,493,31,29,1,0,12,0,2,csk
 Chennai Super Kings,2021,Abu Dhabi,2,361,31,14,0,0,9,1,0,csk
 Chennai Super Kings,2021,Delhi,2,391,39,17,1,0,9,1,0,csk
-Chennai Super Kings,2021,Dubai,2,292,21,9,0,0,15,1,1,csk
+Chennai Super Kings,2021,Dubai,3,426,34,11,0,0,19,1,1,csk
 Chennai Super Kings,2021,Mumbai,5,894,75,45,1,1,39,4,2,csk
 Chennai Super Kings,2021,Sharjah,2,296,24,13,0,0,13,2,2,csk
 Deccan Chargers,2008,Bangalore,1,153,15,5,0,0,8,0,1,deccan
@@ -369,7 +369,7 @@ Kolkata Knight Riders,2021,Ahmedabad,2,280,27,9,0,0,12,1,1,kkr
 Kolkata Knight Riders,2021,Chennai,3,495,46,20,0,1,19,1,1,kkr
 Kolkata Knight Riders,2021,Dubai,2,284,32,4,0,0,13,1,0,kkr
 Kolkata Knight Riders,2021,Mumbai,2,335,25,19,1,0,7,0,1,kkr
-Kolkata Knight Riders,2021,Sharjah,1,130,8,7,0,0,9,1,1,kkr
+Kolkata Knight Riders,2021,Sharjah,2,301,20,14,0,1,19,2,1,kkr
 Mumbai Indians,2008,Bangalore,1,126,10,6,0,0,9,1,1,mi
 Mumbai Indians,2008,Chandigarh,1,116,12,4,0,1,10,0,1,mi
 Mumbai Indians,2008,Chennai,1,202,19,8,1,0,5,0,1,mi
@@ -609,7 +609,7 @@ Punjab Kings,2020,Sharjah,3,550,40,32,1,0,21,2,1,pbks
 Punjab Kings,2021,Abu Dhabi,1,135,11,1,0,0,4,0,0,pbks
 Punjab Kings,2021,Ahmedabad,3,468,31,24,0,0,16,1,0,pbks
 Punjab Kings,2021,Chennai,2,252,19,8,0,0,7,1,2,pbks
-Punjab Kings,2021,Dubai,2,351,22,16,0,1,17,1,2,pbks
+Punjab Kings,2021,Dubai,3,490,31,26,0,1,23,2,3,pbks
 Punjab Kings,2021,Mumbai,3,522,45,25,1,0,15,1,0,pbks
 Punjab Kings,2021,Sharjah,2,283,18,9,0,0,14,1,0,pbks
 Rajasthan Royals,2008,Bangalore,1,138,22,2,0,0,8,1,1,rr
@@ -699,7 +699,7 @@ Rajasthan Royals,2021,Abu Dhabi,2,311,25,12,0,0,10,1,2,rr
 Rajasthan Royals,2021,Delhi,2,391,31,19,1,0,11,1,0,rr
 Rajasthan Royals,2021,Dubai,3,498,42,20,0,0,10,1,1,rr
 Rajasthan Royals,2021,Mumbai,5,821,75,33,1,0,32,2,4,rr
-Rajasthan Royals,2021,Sharjah,1,90,7,2,0,0,2,0,0,rr
+Rajasthan Royals,2021,Sharjah,2,175,14,6,0,0,6,0,1,rr
 Rising Pune Supergiants,2016,Bangalore,1,191,20,7,0,0,3,0,0,rps
 Rising Pune Supergiants,2016,Chandigarh,1,152,18,0,0,0,4,0,1,rps
 Rising Pune Supergiants,2016,Delhi,1,166,11,6,0,0,7,1,1,rps
