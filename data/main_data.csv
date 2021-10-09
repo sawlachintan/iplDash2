@@ -236,7 +236,7 @@ Delhi Capitals,2020,Sharjah,3,597,46,32,1,1,22,3,0,delhi
 Delhi Capitals,2021,Abu Dhabi,1,154,10,3,0,0,6,1,0,delhi
 Delhi Capitals,2021,Ahmedabad,3,493,46,17,0,0,17,2,3,delhi
 Delhi Capitals,2021,Chennai,2,305,32,4,0,0,16,1,1,delhi
-Delhi Capitals,2021,Dubai,2,278,25,9,0,0,14,2,1,delhi
+Delhi Capitals,2021,Dubai,3,442,37,15,0,0,17,2,1,delhi
 Delhi Capitals,2021,Mumbai,3,535,65,11,0,0,18,2,2,delhi
 Delhi Capitals,2021,Sharjah,2,259,23,4,0,0,15,1,1,delhi
 Gujarat Lions,2016,Bangalore,2,262,21,10,0,0,9,0,1,gl
@@ -469,7 +469,7 @@ Mumbai Indians,2019,Mumbai,7,1208,109,55,0,0,46,4,5,mi
 Mumbai Indians,2020,Abu Dhabi,8,1417,125,61,0,1,49,6,3,mi
 Mumbai Indians,2020,Dubai,5,868,63,47,2,0,35,3,3,mi
 Mumbai Indians,2020,Sharjah,3,473,36,29,1,0,16,2,2,mi
-Mumbai Indians,2021,Abu Dhabi,2,292,22,11,0,0,9,1,1,mi
+Mumbai Indians,2021,Abu Dhabi,3,527,52,19,1,0,17,2,2,mi
 Mumbai Indians,2021,Chennai,5,729,59,23,0,1,30,2,2,mi
 Mumbai Indians,2021,Delhi,2,391,29,20,1,0,8,2,2,mi
 Mumbai Indians,2021,Dubai,2,247,23,4,0,0,13,0,1,mi
@@ -821,7 +821,7 @@ Royal Challengers Bangalore,2020,Sharjah,3,485,31,17,0,0,16,1,2,rcb
 Royal Challengers Bangalore,2021,Abu Dhabi,2,229,20,4,0,0,8,0,2,rcb
 Royal Challengers Bangalore,2021,Ahmedabad,2,316,19,15,0,0,9,1,1,rcb
 Royal Challengers Bangalore,2021,Chennai,3,513,48,15,1,0,26,3,2,rcb
-Royal Challengers Bangalore,2021,Dubai,2,318,30,11,0,1,19,2,1,rcb
+Royal Challengers Bangalore,2021,Dubai,3,484,43,16,0,1,24,3,2,rcb
 Royal Challengers Bangalore,2021,Mumbai,2,303,27,13,0,0,13,1,1,rcb
 Royal Challengers Bangalore,2021,Sharjah,2,320,21,16,0,0,10,1,1,rcb
 Sunrisers Hyderabad,2013,Bangalore,1,161,10,7,0,0,3,0,1,srh
@@ -886,7 +886,7 @@ Sunrisers Hyderabad,2019,Visakhapatnam,1,162,12,7,0,0,8,0,0,srh
 Sunrisers Hyderabad,2020,Abu Dhabi,5,773,60,22,0,0,25,2,3,srh
 Sunrisers Hyderabad,2020,Dubai,8,1312,116,41,2,2,54,4,6,srh
 Sunrisers Hyderabad,2020,Sharjah,3,446,37,16,0,0,20,2,2,srh
-Sunrisers Hyderabad,2021,Abu Dhabi,1,141,14,2,0,0,6,1,0,srh
+Sunrisers Hyderabad,2021,Abu Dhabi,2,334,35,6,0,0,15,1,0,srh
 Sunrisers Hyderabad,2021,Chennai,5,744,48,31,0,1,33,1,2,srh
 Sunrisers Hyderabad,2021,Delhi,2,336,27,12,0,0,6,0,2,srh
 Sunrisers Hyderabad,2021,Dubai,3,416,33,12,0,0,11,1,2,srh
