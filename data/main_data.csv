@@ -88,7 +88,7 @@ Chennai Super Kings,2020,Dubai,7,1096,99,34,0,0,35,4,3,csk
 Chennai Super Kings,2020,Sharjah,3,493,31,29,1,0,12,0,2,csk
 Chennai Super Kings,2021,Abu Dhabi,2,361,31,14,0,0,9,1,0,csk
 Chennai Super Kings,2021,Delhi,2,391,39,17,1,0,9,1,0,csk
-Chennai Super Kings,2021,Dubai,4,599,51,16,0,0,24,2,2,csk
+Chennai Super Kings,2021,Dubai,5,791,63,26,0,0,33,3,2,csk
 Chennai Super Kings,2021,Mumbai,5,894,75,45,1,1,39,4,2,csk
 Chennai Super Kings,2021,Sharjah,2,296,24,13,0,0,13,2,2,csk
 Deccan Chargers,2008,Bangalore,1,153,15,5,0,0,8,0,1,deccan
@@ -236,9 +236,9 @@ Delhi Capitals,2020,Sharjah,3,597,46,32,1,1,22,3,0,delhi
 Delhi Capitals,2021,Abu Dhabi,1,154,10,3,0,0,6,1,0,delhi
 Delhi Capitals,2021,Ahmedabad,3,493,46,17,0,0,17,2,3,delhi
 Delhi Capitals,2021,Chennai,2,305,32,4,0,0,16,1,1,delhi
-Delhi Capitals,2021,Dubai,4,614,52,21,0,0,23,2,1,delhi
+Delhi Capitals,2021,Dubai,4,625,52,21,0,0,24,2,1,delhi
 Delhi Capitals,2021,Mumbai,3,535,65,11,0,0,18,2,2,delhi
-Delhi Capitals,2021,Sharjah,2,259,23,4,0,0,15,1,1,delhi
+Delhi Capitals,2021,Sharjah,3,394,29,10,0,0,22,1,1,delhi
 Gujarat Lions,2016,Bangalore,2,262,21,10,0,0,9,0,1,gl
 Gujarat Lions,2016,Chandigarh,1,162,22,2,0,0,6,1,1,gl
 Gujarat Lions,2016,Delhi,2,334,36,10,0,0,11,1,0,gl
@@ -367,9 +367,9 @@ Kolkata Knight Riders,2020,Sharjah,3,471,32,24,1,0,8,0,1,kkr
 Kolkata Knight Riders,2021,Abu Dhabi,3,424,44,14,0,1,24,2,2,kkr
 Kolkata Knight Riders,2021,Ahmedabad,2,280,27,9,0,0,12,1,1,kkr
 Kolkata Knight Riders,2021,Chennai,3,495,46,20,0,1,19,1,1,kkr
-Kolkata Knight Riders,2021,Dubai,2,284,32,4,0,0,13,1,0,kkr
+Kolkata Knight Riders,2021,Dubai,3,449,45,11,0,0,16,1,1,kkr
 Kolkata Knight Riders,2021,Mumbai,2,335,25,19,1,0,7,0,1,kkr
-Kolkata Knight Riders,2021,Sharjah,3,440,28,19,0,1,26,3,1,kkr
+Kolkata Knight Riders,2021,Sharjah,4,576,33,25,0,1,31,4,2,kkr
 Mumbai Indians,2008,Bangalore,1,126,10,6,0,0,9,1,1,mi
 Mumbai Indians,2008,Chandigarh,1,116,12,4,0,1,10,0,1,mi
 Mumbai Indians,2008,Chennai,1,202,19,8,1,0,5,0,1,mi
@@ -821,7 +821,7 @@ Royal Challengers Bangalore,2020,Sharjah,3,485,31,17,0,0,16,1,2,rcb
 Royal Challengers Bangalore,2021,Abu Dhabi,2,229,20,4,0,0,8,0,2,rcb
 Royal Challengers Bangalore,2021,Ahmedabad,2,316,19,15,0,0,9,1,1,rcb
 Royal Challengers Bangalore,2021,Chennai,3,513,48,15,1,0,26,3,2,rcb
-Royal Challengers Bangalore,2021,Dubai,3,484,43,16,0,1,24,3,2,rcb
+Royal Challengers Bangalore,2021,Dubai,3,493,43,16,0,1,24,3,2,rcb
 Royal Challengers Bangalore,2021,Mumbai,2,303,27,13,0,0,13,1,1,rcb
 Royal Challengers Bangalore,2021,Sharjah,3,458,33,16,0,0,16,1,2,rcb
 Sunrisers Hyderabad,2013,Bangalore,1,161,10,7,0,0,3,0,1,srh
