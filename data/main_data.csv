@@ -51,11 +51,9 @@ Chennai Super Kings,2014,Abu Dhabi,2,382,29,15,1,0,13,1,2,csk
 Chennai Super Kings,2014,Bangalore,1,160,13,7,0,0,6,1,1,csk
 Chennai Super Kings,2014,Cuttack,1,187,19,4,0,0,4,0,1,csk
 Chennai Super Kings,2014,Delhi,1,181,16,10,0,0,5,1,1,csk
-Chennai Super Kings,2014,Dubai,2,282,19,10,0,1,17,2,0,csk
 Chennai Super Kings,2014,Kolkata,1,154,8,9,0,0,2,0,0,csk
 Chennai Super Kings,2014,Mumbai,3,538,45,24,1,0,20,2,3,csk
 Chennai Super Kings,2014,Ranchi,4,620,47,25,0,0,26,2,2,csk
-Chennai Super Kings,2014,Sharjah,1,146,9,8,0,0,5,1,0,csk
 Chennai Super Kings,2015,Ahmedabad,1,156,18,3,0,0,2,0,1,csk
 Chennai Super Kings,2015,Bangalore,1,181,17,10,0,0,8,1,0,csk
 Chennai Super Kings,2015,Chandigarh,1,134,12,3,0,0,7,1,0,csk
@@ -84,13 +82,14 @@ Chennai Super Kings,2019,Kolkata,1,162,21,3,0,0,8,1,1,csk
 Chennai Super Kings,2019,Mumbai,1,133,13,4,0,0,5,0,1,csk
 Chennai Super Kings,2019,Visakhapatnam,1,151,14,5,0,0,9,1,1,csk
 Chennai Super Kings,2020,Abu Dhabi,4,602,58,12,0,1,28,2,3,csk
-Chennai Super Kings,2020,Dubai,7,1096,99,34,0,0,35,4,3,csk
-Chennai Super Kings,2020,Sharjah,3,493,31,29,1,0,12,0,2,csk
 Chennai Super Kings,2021,Abu Dhabi,2,361,31,14,0,0,9,1,0,csk
 Chennai Super Kings,2021,Delhi,2,391,39,17,1,0,9,1,0,csk
 Chennai Super Kings,2021,Dubai,5,791,63,26,0,0,33,3,2,csk
 Chennai Super Kings,2021,Mumbai,5,894,75,45,1,1,39,4,2,csk
 Chennai Super Kings,2021,Sharjah,2,296,24,13,0,0,13,2,2,csk
+Chennai Super Kings,2022,Mumbai,9,1393,117,58,2,0,44,1,4,csk
+Chennai Super Kings,2022,Navi Mumbai,2,364,29,18,1,1,17,2,1,csk
+Chennai Super Kings,2022,Pune,3,531,38,27,1,0,21,1,1,csk
 Deccan Chargers,2008,Bangalore,1,153,15,5,0,0,8,0,1,deccan
 Deccan Chargers,2008,Chandigarh,1,175,14,9,0,0,4,0,0,deccan
 Deccan Chargers,2008,Chennai,1,148,15,7,0,0,7,1,1,deccan
@@ -186,9 +185,7 @@ Delhi Capitals,2014,Ahmedabad,1,139,12,3,0,0,6,0,1,delhi
 Delhi Capitals,2014,Bangalore,1,170,11,8,0,0,4,0,1,delhi
 Delhi Capitals,2014,Chandigarh,1,115,15,0,0,0,3,0,0,delhi
 Delhi Capitals,2014,Delhi,5,797,69,28,0,0,15,0,1,delhi
-Delhi Capitals,2014,Dubai,2,347,31,12,0,0,6,1,0,delhi
 Delhi Capitals,2014,Mumbai,1,158,13,6,0,1,10,0,1,delhi
-Delhi Capitals,2014,Sharjah,2,271,19,6,0,0,9,1,0,delhi
 Delhi Capitals,2015,Bangalore,1,187,14,9,0,0,0,0,0,delhi
 Delhi Capitals,2015,Chennai,1,149,15,2,0,0,7,0,1,delhi
 Delhi Capitals,2015,Delhi,5,734,57,31,0,0,28,2,1,delhi
@@ -231,14 +228,15 @@ Delhi Capitals,2019,Kolkata,1,180,17,7,0,0,7,1,1,delhi
 Delhi Capitals,2019,Mumbai,1,213,22,11,1,0,9,1,0,delhi
 Delhi Capitals,2019,Visakhapatnam,2,312,27,13,0,0,12,1,1,delhi
 Delhi Capitals,2020,Abu Dhabi,5,787,67,16,0,0,30,2,5,delhi
-Delhi Capitals,2020,Dubai,9,1396,124,41,0,0,52,3,5,delhi
-Delhi Capitals,2020,Sharjah,3,597,46,32,1,1,22,3,0,delhi
 Delhi Capitals,2021,Abu Dhabi,1,154,10,3,0,0,6,1,0,delhi
 Delhi Capitals,2021,Ahmedabad,3,493,46,17,0,0,17,2,3,delhi
 Delhi Capitals,2021,Chennai,2,305,32,4,0,0,16,1,1,delhi
 Delhi Capitals,2021,Dubai,4,614,52,21,0,0,23,2,1,delhi
 Delhi Capitals,2021,Mumbai,3,535,65,11,0,0,18,2,2,delhi
 Delhi Capitals,2021,Sharjah,3,394,29,10,0,0,22,1,1,delhi
+Delhi Capitals,2022,Mumbai,10,1747,153,82,3,2,61,5,5,delhi
+Delhi Capitals,2022,Navi Mumbai,3,437,34,21,0,0,21,2,2,delhi
+Delhi Capitals,2022,Pune,1,157,18,3,0,0,6,0,1,delhi
 Gujarat Lions,2016,Bangalore,2,262,21,10,0,0,9,0,1,gl
 Gujarat Lions,2016,Chandigarh,1,162,22,2,0,0,6,1,1,gl
 Gujarat Lions,2016,Delhi,2,334,36,10,0,0,11,1,0,gl
@@ -257,6 +255,10 @@ Gujarat Lions,2017,Kolkata,1,188,20,8,0,0,5,1,1,gl
 Gujarat Lions,2017,Mumbai,1,176,12,6,0,0,4,0,0,gl
 Gujarat Lions,2017,Pune,1,161,15,5,0,0,5,0,0,gl
 Gujarat Lions,2017,Rajkot,5,868,79,35,0,1,29,1,4,gl
+Gujarat Titans,2022,Kolkata,1,191,19,6,0,0,6,1,1,gt
+Gujarat Titans,2022,Mumbai,9,1555,159,47,0,0,52,6,5,gt
+Gujarat Titans,2022,Navi Mumbai,2,299,21,7,0,0,10,1,2,gt
+Gujarat Titans,2022,Pune,3,485,41,15,0,1,24,3,2,gt
 Kochi Tuskers Kerala,2011,Bangalore,1,125,12,0,0,0,1,0,1,ktk
 Kochi Tuskers Kerala,2011,Chennai,1,141,10,3,0,0,5,0,0,ktk
 Kochi Tuskers Kerala,2011,Delhi,1,141,17,3,0,0,6,1,1,ktk
@@ -317,11 +319,9 @@ Kolkata Knight Riders,2014,Ahmedabad,1,160,12,5,0,0,6,0,1,kkr
 Kolkata Knight Riders,2014,Bangalore,1,200,15,11,1,0,4,1,1,kkr
 Kolkata Knight Riders,2014,Cuttack,2,292,32,4,0,0,13,2,2,kkr
 Kolkata Knight Riders,2014,Delhi,1,161,14,3,0,0,5,1,0,kkr
-Kolkata Knight Riders,2014,Dubai,1,166,16,2,0,0,6,0,1,kkr
 Kolkata Knight Riders,2014,Hyderabad,1,146,13,5,0,0,8,1,0,kkr
 Kolkata Knight Riders,2014,Kolkata,4,675,70,27,0,0,24,4,2,kkr
 Kolkata Knight Riders,2014,Ranchi,1,114,8,5,0,0,3,0,0,kkr
-Kolkata Knight Riders,2014,Sharjah,1,150,7,6,0,0,5,1,0,kkr
 Kolkata Knight Riders,2015,Bangalore,1,111,11,5,0,0,3,0,0,kkr
 Kolkata Knight Riders,2015,Chennai,1,132,12,3,0,0,6,0,1,kkr
 Kolkata Knight Riders,2015,Delhi,1,147,18,2,0,0,8,1,1,kkr
@@ -362,14 +362,18 @@ Kolkata Knight Riders,2019,Jaipur,1,140,13,8,0,0,3,1,1,kkr
 Kolkata Knight Riders,2019,Kolkata,7,1350,110,83,3,0,33,3,2,kkr
 Kolkata Knight Riders,2019,Mumbai,1,133,3,10,0,0,1,0,0,kkr
 Kolkata Knight Riders,2020,Abu Dhabi,8,1214,117,37,0,0,40,4,5,kkr
-Kolkata Knight Riders,2020,Dubai,3,537,48,25,0,0,22,2,0,kkr
-Kolkata Knight Riders,2020,Sharjah,3,471,32,24,1,0,8,0,1,kkr
 Kolkata Knight Riders,2021,Abu Dhabi,3,424,44,14,0,1,24,2,2,kkr
 Kolkata Knight Riders,2021,Ahmedabad,2,280,27,9,0,0,12,1,1,kkr
 Kolkata Knight Riders,2021,Chennai,3,495,46,20,0,1,19,1,1,kkr
 Kolkata Knight Riders,2021,Dubai,3,449,45,11,0,0,16,1,1,kkr
 Kolkata Knight Riders,2021,Mumbai,2,335,25,19,1,0,7,0,1,kkr
 Kolkata Knight Riders,2021,Sharjah,4,576,33,25,0,1,31,4,2,kkr
+Kolkata Knight Riders,2022,Mumbai,8,1262,105,53,1,1,46,3,5,kkr
+Kolkata Knight Riders,2022,Navi Mumbai,3,521,41,32,1,1,19,1,0,kkr
+Kolkata Knight Riders,2022,Pune,3,440,31,28,0,0,19,2,3,kkr
+Lucknow Super Giants,2022,Mumbai,10,1734,143,66,1,0,66,6,5,lsg
+Lucknow Super Giants,2022,Navi Mumbai,1,210,13,14,1,0,8,1,1,lsg
+Lucknow Super Giants,2022,Pune,3,411,26,21,0,1,22,2,0,lsg
 Mumbai Indians,2008,Bangalore,1,126,10,6,0,0,9,1,1,mi
 Mumbai Indians,2008,Chandigarh,1,116,12,4,0,1,10,0,1,mi
 Mumbai Indians,2008,Chennai,1,202,19,8,1,0,5,0,1,mi
@@ -421,10 +425,8 @@ Mumbai Indians,2014,Abu Dhabi,1,122,7,2,0,0,5,0,0,mi
 Mumbai Indians,2014,Ahmedabad,1,178,12,9,0,0,8,1,1,mi
 Mumbai Indians,2014,Chandigarh,1,159,16,3,0,0,8,1,1,mi
 Mumbai Indians,2014,Cuttack,1,141,11,4,0,0,4,0,0,mi
-Mumbai Indians,2014,Dubai,3,413,34,10,0,0,11,0,2,mi
 Mumbai Indians,2014,Hyderabad,1,160,15,6,0,0,3,1,0,mi
 Mumbai Indians,2014,Mumbai,6,1055,92,49,0,0,30,4,1,mi
-Mumbai Indians,2014,Sharjah,1,125,10,3,0,0,4,0,1,mi
 Mumbai Indians,2015,Ahmedabad,1,164,17,8,0,0,3,0,1,mi
 Mumbai Indians,2015,Bangalore,1,209,23,10,1,0,7,1,0,mi
 Mumbai Indians,2015,Chandigarh,1,172,17,4,0,0,7,1,1,mi
@@ -467,13 +469,14 @@ Mumbai Indians,2019,Jaipur,1,161,11,6,0,0,5,0,0,mi
 Mumbai Indians,2019,Kolkata,1,198,14,14,0,0,2,0,1,mi
 Mumbai Indians,2019,Mumbai,7,1208,109,55,0,0,46,4,5,mi
 Mumbai Indians,2020,Abu Dhabi,8,1417,125,61,0,1,49,6,3,mi
-Mumbai Indians,2020,Dubai,5,868,63,47,2,0,35,3,3,mi
-Mumbai Indians,2020,Sharjah,3,473,36,29,1,0,16,2,2,mi
 Mumbai Indians,2021,Abu Dhabi,3,527,52,19,1,0,17,2,2,mi
 Mumbai Indians,2021,Chennai,5,729,59,23,0,1,30,2,2,mi
 Mumbai Indians,2021,Delhi,2,391,29,20,1,0,8,2,2,mi
 Mumbai Indians,2021,Dubai,2,247,23,4,0,0,13,0,1,mi
 Mumbai Indians,2021,Sharjah,2,223,18,10,0,0,15,1,1,mi
+Mumbai Indians,2022,Mumbai,8,1290,103,56,0,1,52,3,6,mi
+Mumbai Indians,2022,Navi Mumbai,3,429,33,14,0,0,22,1,2,mi
+Mumbai Indians,2022,Pune,3,498,37,30,0,0,13,0,1,mi
 Pune Warriors India,2011,Bangalore,1,155,11,6,0,0,5,0,1,pwi
 Pune Warriors India,2011,Chandigarh,1,120,14,2,0,0,8,1,0,pwi
 Pune Warriors India,2011,Chennai,1,117,6,2,0,0,6,0,1,pwi
@@ -556,11 +559,9 @@ Punjab Kings,2014,Bangalore,2,397,36,17,0,0,16,1,0,pbks
 Punjab Kings,2014,Chandigarh,3,454,38,17,0,1,21,2,1,pbks
 Punjab Kings,2014,Cuttack,2,380,41,15,1,0,7,1,0,pbks
 Punjab Kings,2014,Delhi,1,165,13,6,0,0,7,1,1,pbks
-Punjab Kings,2014,Dubai,1,127,13,0,0,0,8,1,1,pbks
 Punjab Kings,2014,Hyderabad,1,211,19,12,1,0,5,1,1,pbks
 Punjab Kings,2014,Kolkata,1,135,4,9,0,0,8,0,1,pbks
 Punjab Kings,2014,Mumbai,2,394,35,19,1,0,12,1,1,pbks
-Punjab Kings,2014,Sharjah,2,386,25,25,0,1,15,2,1,pbks
 Punjab Kings,2015,Ahmedabad,1,206,15,10,0,0,8,0,1,pbks
 Punjab Kings,2015,Bangalore,1,88,8,3,0,0,3,0,1,pbks
 Punjab Kings,2015,Chandigarh,4,515,36,14,0,0,18,1,2,pbks
@@ -604,14 +605,15 @@ Punjab Kings,2019,Jaipur,1,184,17,7,0,0,9,1,0,pbks
 Punjab Kings,2019,Kolkata,1,190,19,7,0,0,4,0,1,pbks
 Punjab Kings,2019,Mumbai,1,197,13,13,0,0,7,0,0,pbks
 Punjab Kings,2020,Abu Dhabi,4,643,48,23,0,0,14,0,1,pbks
-Punjab Kings,2020,Dubai,7,1164,93,44,1,2,47,3,2,pbks
-Punjab Kings,2020,Sharjah,3,550,40,32,1,0,21,2,1,pbks
 Punjab Kings,2021,Abu Dhabi,1,135,11,1,0,0,4,0,0,pbks
 Punjab Kings,2021,Ahmedabad,3,468,31,24,0,0,16,1,0,pbks
 Punjab Kings,2021,Chennai,2,252,19,8,0,0,7,1,2,pbks
 Punjab Kings,2021,Dubai,3,490,31,26,0,1,23,2,3,pbks
 Punjab Kings,2021,Mumbai,3,522,45,25,1,0,15,1,0,pbks
 Punjab Kings,2021,Sharjah,2,283,18,9,0,0,14,1,0,pbks
+Punjab Kings,2022,Mumbai,10,1725,146,86,2,1,51,5,2,pbks
+Punjab Kings,2022,Navi Mumbai,2,287,28,10,0,0,15,1,1,pbks
+Punjab Kings,2022,Pune,2,331,26,14,0,0,17,1,1,pbks
 Rajasthan Royals,2008,Bangalore,1,138,22,2,0,0,8,1,1,rr
 Rajasthan Royals,2008,Chandigarh,1,180,18,8,0,0,3,0,1,rr
 Rajasthan Royals,2008,Chennai,1,211,20,9,1,0,7,1,1,rr
@@ -665,10 +667,8 @@ Rajasthan Royals,2014,Ahmedabad,4,626,38,27,1,0,27,2,1,rr
 Rajasthan Royals,2014,Bangalore,1,191,19,8,0,0,5,1,0,rr
 Rajasthan Royals,2014,Chandigarh,1,163,9,8,0,0,4,0,1,rr
 Rajasthan Royals,2014,Delhi,1,156,12,7,0,0,5,1,1,rr
-Rajasthan Royals,2014,Dubai,1,133,7,6,0,0,6,0,1,rr
 Rajasthan Royals,2014,Mumbai,1,189,17,9,0,0,5,0,0,rr
 Rajasthan Royals,2014,Ranchi,1,148,10,7,0,0,5,0,1,rr
-Rajasthan Royals,2014,Sharjah,1,191,17,10,0,0,3,0,0,rr
 Rajasthan Royals,2015,Ahmedabad,4,649,54,20,0,0,19,2,0,rr
 Rajasthan Royals,2015,Bangalore,1,0,0,0,0,0,7,0,1,rr
 Rajasthan Royals,2015,Chennai,1,145,11,3,0,0,5,0,0,rr
@@ -693,13 +693,15 @@ Rajasthan Royals,2019,Jaipur,7,1138,119,23,0,0,33,3,4,rr
 Rajasthan Royals,2019,Kolkata,1,177,18,8,0,0,6,1,1,rr
 Rajasthan Royals,2019,Mumbai,1,188,19,9,0,0,5,1,1,rr
 Rajasthan Royals,2020,Abu Dhabi,5,798,70,33,0,0,20,3,2,rr
-Rajasthan Royals,2020,Dubai,6,910,70,31,0,0,29,1,3,rr
-Rajasthan Royals,2020,Sharjah,3,580,31,41,2,0,16,2,2,rr
 Rajasthan Royals,2021,Abu Dhabi,2,311,25,12,0,0,10,1,2,rr
 Rajasthan Royals,2021,Delhi,2,391,31,19,1,0,11,1,0,rr
 Rajasthan Royals,2021,Dubai,3,498,42,20,0,0,10,1,1,rr
 Rajasthan Royals,2021,Mumbai,5,821,75,33,1,0,32,2,4,rr
 Rajasthan Royals,2021,Sharjah,2,175,14,6,0,0,6,0,1,rr
+Rajasthan Royals,2022,Kolkata,1,188,19,7,0,0,3,0,0,rr
+Rajasthan Royals,2022,Mumbai,10,1792,158,81,2,1,66,7,2,rr
+Rajasthan Royals,2022,Navi Mumbai,2,318,26,13,0,0,7,0,0,rr
+Rajasthan Royals,2022,Pune,2,354,25,22,1,1,17,2,0,rr
 Rising Pune Supergiants,2016,Bangalore,1,191,20,7,0,0,3,0,0,rps
 Rising Pune Supergiants,2016,Chandigarh,1,152,18,0,0,0,4,0,1,rps
 Rising Pune Supergiants,2016,Delhi,1,166,11,6,0,0,7,1,1,rps
@@ -767,12 +769,10 @@ Royal Challengers Bangalore,2013,Pune,1,187,17,6,0,0,9,1,1,rcb
 Royal Challengers Bangalore,2013,Ranchi,1,115,5,2,0,0,5,0,0,rcb
 Royal Challengers Bangalore,2014,Abu Dhabi,1,70,6,1,0,0,4,0,0,rcb
 Royal Challengers Bangalore,2014,Bangalore,5,854,60,50,0,0,28,2,3,rcb
-Royal Challengers Bangalore,2014,Dubai,2,240,20,5,0,0,14,1,1,rcb
 Royal Challengers Bangalore,2014,Hyderabad,1,160,13,6,0,0,3,0,1,rcb
 Royal Challengers Bangalore,2014,Kolkata,1,165,14,4,0,0,4,0,1,rcb
 Royal Challengers Bangalore,2014,Mumbai,1,168,15,8,0,0,5,0,1,rcb
 Royal Challengers Bangalore,2014,Ranchi,1,142,8,8,0,0,4,1,0,rcb
-Royal Challengers Bangalore,2014,Sharjah,2,294,29,10,0,0,11,1,2,rcb
 Royal Challengers Bangalore,2015,Ahmedabad,1,134,10,4,0,0,9,1,1,rcb
 Royal Challengers Bangalore,2015,Bangalore,7,1054,92,54,2,1,36,2,4,rcb
 Royal Challengers Bangalore,2015,Chandigarh,1,84,6,2,0,0,6,0,1,rcb
@@ -816,14 +816,14 @@ Royal Challengers Bangalore,2019,Jaipur,1,158,18,3,0,0,3,0,0,rcb
 Royal Challengers Bangalore,2019,Kolkata,1,213,18,12,1,0,5,1,0,rcb
 Royal Challengers Bangalore,2019,Mumbai,1,171,12,10,0,0,5,0,0,rcb
 Royal Challengers Bangalore,2020,Abu Dhabi,5,690,70,11,0,0,27,2,0,rcb
-Royal Challengers Bangalore,2020,Dubai,7,1114,77,38,1,1,39,3,4,rcb
-Royal Challengers Bangalore,2020,Sharjah,3,485,31,17,0,0,16,1,2,rcb
 Royal Challengers Bangalore,2021,Abu Dhabi,2,229,20,4,0,0,8,0,2,rcb
 Royal Challengers Bangalore,2021,Ahmedabad,2,316,19,15,0,0,9,1,1,rcb
 Royal Challengers Bangalore,2021,Chennai,3,513,48,15,1,0,26,3,2,rcb
 Royal Challengers Bangalore,2021,Dubai,3,484,43,16,0,1,24,3,2,rcb
 Royal Challengers Bangalore,2021,Mumbai,2,303,27,13,0,0,13,1,1,rcb
 Royal Challengers Bangalore,2021,Sharjah,3,458,33,16,0,0,16,1,2,rcb
+Royal Challengers Bangalore,2022,Mumbai,11,1828,161,68,1,2,66,6,6,rcb
+Royal Challengers Bangalore,2022,Pune,3,440,31,18,0,0,22,2,2,rcb
 Sunrisers Hyderabad,2013,Bangalore,1,161,10,7,0,0,3,0,1,srh
 Sunrisers Hyderabad,2013,Chandigarh,1,150,14,5,0,0,9,1,0,srh
 Sunrisers Hyderabad,2013,Chennai,1,159,17,4,0,0,5,0,1,srh
@@ -837,11 +837,9 @@ Sunrisers Hyderabad,2014,Abu Dhabi,1,133,6,2,0,0,6,0,0,srh
 Sunrisers Hyderabad,2014,Ahmedabad,1,134,15,0,0,1,10,1,0,srh
 Sunrisers Hyderabad,2014,Bangalore,1,155,12,6,0,0,6,0,0,srh
 Sunrisers Hyderabad,2014,Delhi,1,44,2,2,0,0,7,1,1,srh
-Sunrisers Hyderabad,2014,Dubai,2,356,27,13,0,0,11,2,1,srh
 Sunrisers Hyderabad,2014,Hyderabad,4,665,54,29,1,0,16,1,2,srh
 Sunrisers Hyderabad,2014,Kolkata,1,160,19,5,0,0,6,0,0,srh
 Sunrisers Hyderabad,2014,Ranchi,1,189,17,7,0,0,3,1,1,srh
-Sunrisers Hyderabad,2014,Sharjah,2,266,15,8,0,0,11,0,2,srh
 Sunrisers Hyderabad,2015,Bangalore,1,172,14,7,0,1,10,1,1,srh
 Sunrisers Hyderabad,2015,Chandigarh,1,150,17,3,0,0,9,1,0,srh
 Sunrisers Hyderabad,2015,Chennai,1,164,8,7,0,0,4,0,0,srh
@@ -884,10 +882,10 @@ Sunrisers Hyderabad,2019,Kolkata,1,181,15,6,0,0,4,0,0,srh
 Sunrisers Hyderabad,2019,Mumbai,1,170,16,6,0,0,5,0,0,srh
 Sunrisers Hyderabad,2019,Visakhapatnam,1,162,12,7,0,0,8,0,0,srh
 Sunrisers Hyderabad,2020,Abu Dhabi,5,773,60,22,0,0,25,2,3,srh
-Sunrisers Hyderabad,2020,Dubai,8,1312,116,41,2,2,54,4,6,srh
-Sunrisers Hyderabad,2020,Sharjah,3,446,37,16,0,0,20,2,2,srh
 Sunrisers Hyderabad,2021,Abu Dhabi,2,334,35,6,0,0,15,1,0,srh
 Sunrisers Hyderabad,2021,Chennai,5,744,48,31,0,1,33,1,2,srh
 Sunrisers Hyderabad,2021,Delhi,2,336,27,12,0,0,6,0,2,srh
 Sunrisers Hyderabad,2021,Dubai,3,416,33,12,0,0,11,1,2,srh
 Sunrisers Hyderabad,2021,Sharjah,2,254,9,9,0,0,11,0,1,srh
+Sunrisers Hyderabad,2022,Mumbai,11,1736,140,75,0,2,72,6,8,srh
+Sunrisers Hyderabad,2022,Pune,3,461,30,22,0,0,14,0,2,srh

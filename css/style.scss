@@ -303,9 +303,10 @@ $lightBoxShadow: 0 0 5px 1px #e0e0e0;
       .component-container {
         display: grid;
         grid-template-columns: 20.5% 20.5% 28% 28%;
-        grid-template-rows: 350px 250px;
+        grid-template-rows: 325px 300px;
         gap: 15px;
-        grid-template-areas: "map-container map-container donut-container fact-container" "map-container map-container line-container line-container";
+        grid-template-areas: "map-container map-container donut-container fact-container" 
+        "map-container map-container line-container line-container";
         padding: 0 2.5vw;
         padding-bottom: 2vh;
       }
