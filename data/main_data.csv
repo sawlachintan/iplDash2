@@ -255,6 +255,7 @@ Gujarat Lions,2017,Kolkata,1,188,20,8,0,0,5,1,1,gl
 Gujarat Lions,2017,Mumbai,1,176,12,6,0,0,4,0,0,gl
 Gujarat Lions,2017,Pune,1,161,15,5,0,0,5,0,0,gl
 Gujarat Lions,2017,Rajkot,5,868,79,35,0,1,29,1,4,gl
+Gujarat Titans,2022,Ahmedabad,1,133,10,4,0,0,9,1,0,gt
 Gujarat Titans,2022,Kolkata,1,191,19,6,0,0,6,1,1,gt
 Gujarat Titans,2022,Mumbai,9,1555,159,47,0,0,52,6,5,gt
 Gujarat Titans,2022,Navi Mumbai,2,299,21,7,0,0,10,1,2,gt
@@ -371,6 +372,7 @@ Kolkata Knight Riders,2021,Sharjah,4,576,33,25,0,1,31,4,2,kkr
 Kolkata Knight Riders,2022,Mumbai,8,1262,105,53,1,1,46,3,5,kkr
 Kolkata Knight Riders,2022,Navi Mumbai,3,521,41,32,1,1,19,1,0,kkr
 Kolkata Knight Riders,2022,Pune,3,440,31,28,0,0,19,2,3,kkr
+Lucknow Super Giants,2022,Kolkata,1,193,6,14,0,0,4,0,1,lsg
 Lucknow Super Giants,2022,Mumbai,10,1734,143,66,1,0,66,6,5,lsg
 Lucknow Super Giants,2022,Navi Mumbai,1,210,13,14,1,0,8,1,1,lsg
 Lucknow Super Giants,2022,Pune,3,411,26,21,0,1,22,2,0,lsg
@@ -698,6 +700,7 @@ Rajasthan Royals,2021,Delhi,2,391,31,19,1,0,11,1,0,rr
 Rajasthan Royals,2021,Dubai,3,498,42,20,0,0,10,1,1,rr
 Rajasthan Royals,2021,Mumbai,5,821,75,33,1,0,32,2,4,rr
 Rajasthan Royals,2021,Sharjah,2,175,14,6,0,0,6,0,1,rr
+Rajasthan Royals,2022,Ahmedabad,2,291,23,14,0,0,11,1,2,rr
 Rajasthan Royals,2022,Kolkata,1,188,19,7,0,0,3,0,0,rr
 Rajasthan Royals,2022,Mumbai,10,1792,158,81,2,1,66,7,2,rr
 Rajasthan Royals,2022,Navi Mumbai,2,318,26,13,0,0,7,0,0,rr
@@ -822,6 +825,8 @@ Royal Challengers Bangalore,2021,Chennai,3,513,48,15,1,0,26,3,2,rcb
 Royal Challengers Bangalore,2021,Dubai,3,484,43,16,0,1,24,3,2,rcb
 Royal Challengers Bangalore,2021,Mumbai,2,303,27,13,0,0,13,1,1,rcb
 Royal Challengers Bangalore,2021,Sharjah,3,458,33,16,0,0,16,1,2,rcb
+Royal Challengers Bangalore,2022,Ahmedabad,1,157,9,7,0,0,3,0,0,rcb
+Royal Challengers Bangalore,2022,Kolkata,1,207,21,9,1,0,6,1,0,rcb
 Royal Challengers Bangalore,2022,Mumbai,11,1828,161,68,1,2,66,6,6,rcb
 Royal Challengers Bangalore,2022,Pune,3,440,31,18,0,0,22,2,2,rcb
 Sunrisers Hyderabad,2013,Bangalore,1,161,10,7,0,0,3,0,1,srh
